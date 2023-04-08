@@ -13,8 +13,15 @@ h1 {
 
 section {
     display: flex;
+
+
 }
 
-.half-width {
-    width: 50%;
+
+
+.half-width p {
+    width: 90%;
+    justify-content: space-between;
 }
+
+.half-width img {}
