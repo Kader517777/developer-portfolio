@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    padding: 2%;
 }
 
 h1 {
@@ -17,11 +17,16 @@ section {
 
 }
 
-
-
 .half-width p {
     width: 90%;
     justify-content: space-between;
+
 }
 
-.half-width img {}
+.link-button {
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(rgb(180, 207, 27), rgb(245, 209, 3));
+    padding: 10px 10px;
+    border-radius: 4px;
+}
