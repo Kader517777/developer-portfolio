@@ -12,9 +12,8 @@ h1 {
     color: rgb(238, 83, 11);
 }
 
-section {
+.section-flexible {
     display: flex;
-
 
 
 }
@@ -54,9 +53,40 @@ section {
     background-repeat: no-repeat;
 }
 
-.section2-image {}
+.section2-image {
+    width: 50%;
+}
 
 .section2-developer {
-    width: 90%;
-    padding: 10% 10%;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.section2-developer h1 {}
+
+.Experience {
+    padding: 10%;
+    background-image: url(images/background.png);
+}
+
+.full-stac-section {
+    width: 30%;
+    height: 350px;
+    margin: 5%;
+    padding: 2%;
+    text-align: justify;
+}
+
+.jave-development {
+    width: 30%;
+    height: 350px;
+    margin: 5%;
+    padding: 2%;
+    margin-right: 2%;
+    text-align: justify;
+
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px #808080;
 }
