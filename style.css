@@ -71,18 +71,19 @@ h1 {
 
 .full-stac-section {
     width: 30%;
-    height: 350px;
-    margin: 5%;
+
+    margin: 10%;
+    margin-right: 3%;
     padding: 2%;
     text-align: justify;
 }
 
 .jave-development {
     width: 30%;
-    height: 350px;
-    margin: 5%;
+
+    margin: 10%;
     padding: 2%;
-    margin-right: 2%;
+
     text-align: justify;
 
 }
