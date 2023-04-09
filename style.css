@@ -44,7 +44,19 @@ section {
     border-radius: 4px;
 }
 
-.section-bg2 img {
-    width: 500px;
-    height: 700px;
+.section-bg2 {
+    padding-top: 20;
+}
+
+.section-bg2 {
+    background-image: url(images/section1-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.section2-image {}
+
+.section2-developer {
+    width: 90%;
+    padding: 10% 10%;
 }
