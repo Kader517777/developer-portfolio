@@ -67,11 +67,12 @@ h1 {
 .Experience {
     padding: 10%;
     background-image: url(images/background.png);
+    background-repeat: no-repeat;
 }
 
 .full-stac-section {
     width: 30%;
-
+    border-radius: 5px;
     margin: 10%;
     margin-right: 3%;
     padding: 2%;
@@ -80,14 +81,30 @@ h1 {
 
 .jave-development {
     width: 30%;
-
+    border-radius: 5px;
     margin: 10%;
     padding: 2%;
-
     text-align: justify;
 
 }
 
 .experience-item {
     box-shadow: 10px 10px 40px #808080;
+}
+
+#full-developer-border {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+
+}
+
+#java-developer-border {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
